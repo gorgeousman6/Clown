@@ -1,0 +1,161 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec {
+    flex: 1;
+}
+
+.header,
+.footer {
+    height: 50px;
+}
+
+.header {
+    padding: 16px;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header > ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+}
+
+.intro {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 8px;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 400px;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.container > a {
+    background-color: red;
+    padding: 8px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.info-2 {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.m {
+    max-width: 410px;
+    height: 400px;
+}
+
+.m > img {
+    border: 5px solid black;
+}
+
+.m > div {
+    margin-bottom: 16px;
+    
+}
+
+.m > a {
+    padding: 8px;
+    color:white;
+    border-radius: 20px;
+    background-color: red;
+    text-decoration: none;
+}
+
+.sec.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+    flex: none;
+
+}
+
+.container2 {
+    font-size: 36px;
+    color: #1f2937
+    
+}
+
+.ending {
+    height: 150px;
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:80px 160px;
+    color: white;
+}
+
+.end {
+    background-color: #3882f6;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    padding: 24px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end > a {
+    padding: 8px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    flex: none;
+}
+
+.footer {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
